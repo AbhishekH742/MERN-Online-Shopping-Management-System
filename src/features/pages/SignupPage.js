@@ -1,8 +1,8 @@
-import { Signup } from "../auth/components/Signup";
+import Signup from '../auth/components/Signup'
 function SignupPage() {
     return ( 
         <div>
-           <Signup></Signup>
+          <Signup></Signup>
         </div>
      );
 }
