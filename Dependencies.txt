@@ -1,0 +1,36 @@
+ Dependencies to be installed
+
+-> npx create-react-app my-app -template redux
+
+-> npm install -D tailwindcss
+
+-> npx tailwindcss init
+
+-> npm i @tailwindcss/aspect-ratio
+
+-> npm i @tailwindcss/forms
+
+-> npm install @headlessui/react
+
+-> npm i -g json-server
+
+-> Run json server before react-app using command
+	-> json-server --watch data.json -p 8080
+
+-> npm i react-hook-form
+
+
+-> npm i --save react-alert react-alert-template-basic
+
+-> npm i react-loader-spinner
+         
+
+admin UserID and Password 
+    email/UserID : admin@gmail.com
+    Password : Qwerty123
+
+
+User UserID and Password
+
+    email/UserID : abhishekhallur742@gmail.com
+    Password : 123456789
