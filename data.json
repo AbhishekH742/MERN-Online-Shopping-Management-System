@@ -2337,17 +2337,18 @@
   "users": [
     {
       "email": "abhishekhallur742@gmail.com",
-      "password": "Abhishek@742",
-      "addresses": [
-        {
-          "name": "Abhishek hallur",
-          "email": "abhishekhallur742@gmail.com",
-          "phone": "1234567788",
-          "street": "11th Main",
-          "city": "Banaglore",
-          "state": "Karnataka",
-          "pinCode": "560034"
-        },
+        "password": "Abhishek@742",
+        "addresses": [
+          {
+            "name": "Abhishek Hallur",
+            "email": "abhishekhallur742@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+         
         {
           "name": "Abhishek R",
           "email": "test@gmail.com",
@@ -2464,8 +2465,9 @@
             "state": "Karnataka",
             "pinCode": "560034"
           },
+         
           {
-            "name": "Abhishek hallur",
+            "name": "Abhishek R",
             "email": "test@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
@@ -2602,9 +2604,9 @@
       },
       "paymentMethod": "card",
       "selectedAddress": {
-        "name": "Abhishek Hallur",
-        "email": "abhishekhallur742@gmail.com",
-        "phone": "9611034206",
+        "name": "Abhishek R",
+        "email": "test@gmail.com",
+        "phone": "1234567788",
         "street": "11th Main",
         "city": "Banaglore",
         "state": "Karnataka",
@@ -2613,7 +2615,6 @@
       "id": 3
     },
     {
-      "id": "04f3",
       "items": [
         {
           "title": "iPhone X",
@@ -2643,7 +2644,7 @@
         "password": "Abhishek@742",
         "addresses": [
           {
-            "name": "Abhishek hallur",
+            "name": "Abhishek Hallur",
             "email": "abhishekhallur742@gmail.com",
             "phone": "1234567788",
             "street": "11th Main",
@@ -2665,14 +2666,77 @@
       },
       "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Abhishek hallur",
-        "email": "abhishekhallur742@gmail.com",
+        "name": "Abhishek R",
+        "email": "test@gmail.com",
         "phone": "1234567788",
         "street": "11th Main",
         "city": "Banaglore",
         "state": "Karnataka",
         "pinCode": "560034"
-      }
+      },
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 6
+        }
+      ],
+      "totalAmount": 1798,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "addresses": [
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Abhishek R",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Abhishek R",
+        "email": "test@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Banaglore",
+        "state": "Karnataka",
+        "pinCode": "560034"
+      },
+      "id": 5
     }
   ]
 }
