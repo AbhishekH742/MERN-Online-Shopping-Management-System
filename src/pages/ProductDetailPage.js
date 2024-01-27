@@ -1,7 +1,7 @@
 
 
-import NavBar from "../navbar/NavBar";
-import ProductDetail from "../product-list/components/ProductDetail";
+import NavBar from "../features/navbar/NavBar";
+import ProductDetail from "../features/product-list/components/ProductDetail";
 function ProductDetailPage() {
     return ( 
         <div>

@@ -4,15 +4,15 @@ import {
   deleteItemFromCartAsync,
   selectItems,
   updateCartAsync,
-} from '../cart/cartSlice';
+} from '../features/cart/cartSlice';
 import { Navigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import {
-  selectLoggedInUser,
   updateUserAsync,
-} from '../auth/authSlice';
+} from '../features/auth/authSlice';
 import { useState } from 'react';
-import { createOrderAsync, selectCurrentOrder } from '../order/orderSlice';
+import { createOrderAsync, selectCurrentOrder } from '../features/order/orderSlice';
+import { selectUserInfo } from '../features/user/userSlice';
 
 function Checkout() {
   const dispatch = useDispatch();
@@ -23,7 +23,7 @@ function Checkout() {
     formState: { errors },
   } = useForm();
 
-  const user = useSelector(selectLoggedInUser);
+  const user = useSelector(selectUserInfo);
   const items = useSelector(selectItems);
   const currentOrder = useSelector(selectCurrentOrder);
 

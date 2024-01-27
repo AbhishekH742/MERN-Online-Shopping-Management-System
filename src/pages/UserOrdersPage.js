@@ -1,5 +1,5 @@
-import NavBar from '../navbar/NavBar';
-import UserOrders from '../user/components/UserOrders';
+import NavBar from '../features/navbar/NavBar';
+import UserOrders from '../features/user/components/UserOrders';
 
 function UserOrdersPage() {
   return (
