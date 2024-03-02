@@ -2454,22 +2454,13 @@
       "password": "123456789",
       "addresses": [
         {
-          "name": "Abhishek Hallur",
+          "name": "Abhishek S Hallur",
           "email": "abhishekhallur742@gmail.com",
-          "phone": "1234567788",
-          "street": "11th Main",
-          "city": "Banaglore",
-          "state": "Karnataka",
-          "pinCode": "560034"
-        },
-        {
-          "name": "Jack Morris",
-          "email": "jack@gmail.com",
-          "city": "Delhi",
-          "state": "Delhi",
-          "pinCode": "110006",
-          "phone": "12312331232",
-          "street": "12th cross"
+          "phone": "9611034206",
+          "street": "cacaqvq",
+          "city": "Bangalore",
+          "state": "Karnatak",
+          "pinCode": "560059"
         },
         {
           "name": "Abhishek S Hallur",
@@ -2965,7 +2956,7 @@
         "state": "Maharastra",
         "pinCode": "220001"
       },
-      "status": "pending",
+      "status": "delivered",
       "id": "7"
     },
     {
@@ -3350,6 +3341,88 @@
         "city": "Bangalore",
         "state": "Karnatak",
         "pinCode": "560059"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "4a54",
+      "items": [
+        {
+          "id": "c44d",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "productId": "2",
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "totalAmount": 912,
+      "totalItems": 1,
+      "user": {
+        "email": "abhishekhallur742@gmail.com",
+        "password": "123456789",
+        "addresses": [
+          {
+            "name": "Abhishek Hallur",
+            "email": "abhishekhallur742@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Jack Morris",
+            "email": "jack@gmail.com",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110006",
+            "phone": "12312331232",
+            "street": "12th cross"
+          },
+          {
+            "name": "Abhishek S Hallur",
+            "email": "abhishekhallur742@gmail.com",
+            "phone": "9611034206",
+            "street": "cacaqvq",
+            "city": "Bangalore",
+            "state": "Karnatak",
+            "pinCode": "560059"
+          },
+          {
+            "name": "Abhishek S Hallur",
+            "email": "abhishekhallur742@gmail.com",
+            "phone": "9611034206",
+            "street": "cacaqvq",
+            "city": "Bangalore",
+            "state": "Karnatak",
+            "pinCode": "560059"
+          }
+        ],
+        "id": "1"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Abhishek Hallur",
+        "email": "abhishekhallur742@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Banaglore",
+        "state": "Karnataka",
+        "pinCode": "560034"
       },
       "status": "pending"
     }

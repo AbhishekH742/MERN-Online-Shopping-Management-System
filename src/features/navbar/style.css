@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+     /* background: url('8k-ultra-hd-nature.jpg') no-repeat center center/ cover; */
+    height: 100vh;
+    position: relative;
+}
+
+.feedback{
+    background-color:none;
+    backdrop-filter: blur(10px);    
+    width: 40vw;
+    height: 70vh;
+}
+
+feed-form{
+    background: none;
+    width: 40vw;
+    height: 70vh;
+    padding: 10px;
+    
+}
+
+.model {
+        top: 50%;
+        left: -56px;
+        width: 142px;
+        background-color: blue;
+        border-end-start-radius: 5px;
+        border-end-end-radius: 5px;
+        border: 1px solid white;
+        padding: 3px;
+        font-size: 1rem;
+        color: #ffffff;
+        transition: .5s;
+        transform: rotate(-90deg);
+        position: fixed;
+    }
+
+
+.model:hover {
+    position: fixed;
+    background-color: #a1a6a7;
+    border: none;
+    cursor: pointer;
+}
+
+.model-view {
+    /* background-color: white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 70vh;
+    /* padding: 10px 10px; */
+    font-size: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+
+    animation-name: AnimateModel;
+    animation-duration: .4s;
+}
+
+.close {
+    position: absolute;
+    left: 38vw;
+    top: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+
+}
+
+.model-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn{
+    background-color: blue;
+    font-size: 1.3rem;
+    padding:3px 5px;
+    width: 7vw;
+    border-radius: 7px;
+    color: white;
+}
+
+.submit-btn:hover{
+    background-color: rgb(58, 58, 149);
+    box-shadow: 0 0 4px rgb(63, 62, 62);
+    
+}
+
+
+/* Animate Model */
+
+@keyframes AnimateModel {
+    from {
+        top: -50%;
+        opacity: 0;
+    }
+
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}

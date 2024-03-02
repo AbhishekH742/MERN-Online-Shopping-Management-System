@@ -9,6 +9,9 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectItems } from '../cart/cartSlice';
 import { selectLoggedInUser } from '../auth/authSlice';
+// import { positions } from 'react-alert';
+import UserFeedback from '../FeedBack/UserFeedback';
+import '../navbar/style.css'
 
 
 const navigation = [
@@ -16,10 +19,12 @@ const navigation = [
   { name: 'Products', link: '/admin', admin: true },
   { name: 'Orders', link: '/admin/orders', admin: true },
 
+
 ];
 const userNavigation = [
   { name: 'My Profile', link: '/profile' },
   { name: 'My Orders', link: '/orders' },
+  // {name : 'Feedback', link: '/feedback'},
   { name: 'Sign out', link: '/logout' },
 ];
 
@@ -27,7 +32,35 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
+
+
 function NavBar({ children }) {
+
+  const openForm = () => {
+    const openModel = document.querySelector('.open-model');
+    const modelContainer = document.querySelector('.model-container');
+    const closeBtn = document.querySelector('.close');
+
+    openModel.addEventListener('click', function () {
+
+      modelContainer.style.display = "block";
+    });
+
+    closeBtn.addEventListener('click', function () {
+      modelContainer.style.display = "none";
+    });
+
+    // Using this we can close the model by clicking anywhere on the window
+   
+  }
+
+  const closeForm = (e) =>{
+    const modelContainer = document.querySelector('.model-container');
+    if (e.target === modelContainer) {
+      modelContainer.style.display = "none";
+    }
+  }
+
   const items = useSelector(selectItems);
   const user = useSelector(selectLoggedInUser);
 
@@ -237,6 +270,24 @@ function NavBar({ children }) {
           </div>
         </main>
       </div>
+      <button className='model open-model' onClick={openForm}><p>Feedback Form</p></button>
+
+      <div className='model-container'>
+        <div className='model-view'>
+          <p>
+            <UserFeedback />
+          </p>
+          <div className="close" onClick={closeForm}>&times;</div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
     </>
   );
 }
